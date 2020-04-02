@@ -3,7 +3,7 @@ __precompile__()
 module LightGBM
 using Libdl
 using Dates
-import StatsBase
+using Statistics
 
 # if LIGHTGBM_PATH is difined, automatical define LIGHTGBM_PATH
 function lgbm_librarysetup()

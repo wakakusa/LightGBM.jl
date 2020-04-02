@@ -1,7 +1,7 @@
 using LightGBM
 using Test
 using DelimitedFiles
-using StatsBase
+using Statistics
 using DataFrames,CSV,HTTP
 
 @testset "LightGBM.jl" begin
