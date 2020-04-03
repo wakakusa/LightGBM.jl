@@ -2,7 +2,8 @@ LightGBM.jl
 ========
 
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
-
+[![Build Status](https://travis-ci.org/wakakusa/LightGBM.jl.svg?branch=devel)](https://travis-ci.org/wakakusa/LightGBM.jl)
+[![Coverage Status](https://coveralls.io/repos/github/wakakusa/LightGBM.jl/badge.svg?branch=devel)](https://coveralls.io/github/wakakusa/LightGBM.jl?branch=devel)
 
 **LightGBM.jl** provides a high-performance Julia interface for Microsoft's
 [LightGBM](https://github.com/Microsoft/LightGBM). The packages adds several convenience features,
