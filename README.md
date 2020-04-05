@@ -1,9 +1,12 @@
 LightGBM.jl
 ========
 
-[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
-[![Build Status](https://travis-ci.org/wakakusa/LightGBM.jl.svg?branch=devel)](https://travis-ci.org/wakakusa/LightGBM.jl)
-[![Coverage Status](https://coveralls.io/repos/github/wakakusa/LightGBM.jl/badge.svg?branch=devel)](https://coveralls.io/github/wakakusa/LightGBM.jl?branch=devel)
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)  
+
+|branch|document|build|coverage|
+|------|---------|-----|--------|
+|master|[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://wakakusa.github.io/LightGBM.jl/stable)|[![Build Status](https://travis-ci.org/wakakusa/LightGBM.jl.svg?branch=master)](https://travis-ci.org/wakakusa/LightGBM.jl)|[![Coverage Status](https://coveralls.io/repos/github/wakakusa/LightGBM.jl/badge.svg?branch=master)](https://coveralls.io/github/wakakusa/LightGBM.jl?branch=master)|
+|devel|[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://wakakusa.github.io/LightGBM.jl/dev)|[![Build Status](https://travis-ci.org/wakakusa/LightGBM.jl.svg?branch=devel)](https://travis-ci.org/wakakusa/LightGBM.jl)|[![Coverage Status](https://coveralls.io/repos/github/wakakusa/LightGBM.jl/badge.svg?branch=devel)](https://coveralls.io/github/wakakusa/LightGBM.jl?branch=devel)|
 
 **LightGBM.jl** provides a high-performance Julia interface for Microsoft's
 [LightGBM](https://github.com/Microsoft/LightGBM). The packages adds several convenience features,
