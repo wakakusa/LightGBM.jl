@@ -182,8 +182,7 @@ using DataFrames,CSV,HTTP
     scores = LightGBM.fit(estimator, X_train, y_train, (X_test, y_test), verbosity = 0,
                           is_row_major = true);
     @test scores["test_1"]["multi_logloss"][end] < 1.4
-
-    include("weightsTest.jl")
-    include("initScoreTest.jl")
-
 end
+
+include("weightsTest.jl")
+include("initScoreTest.jl")
